@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume example</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="burger">
+        <!-- <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div> -->
+        <hr />
+        <hr />
+        <hr />
+      </div>
+      <h1>Portofolio</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <h2>Hi, It’s Théophile Seyrig</h2>
+      <h3>Designer from Porto, Portugal</h3>
+      <a href="">Latest works</a>
+    </header>
+
+    <main>
+      <section id="about">
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus
+          tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue.
+          Pellentesque senectus risus consectetur et sed purus sed. Consectetur
+          adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra
+          egestas aliquet mollis.
+        </p>
+        <p id="secondP">
+          Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+          penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus
+          consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+          porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+          diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+        </p>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <picture id="profilePicture">
+          <source
+            media="(min-width: 600px)"
+            srcset="./images/desktop/profilePicture.png"
+          />
+          <img
+            src="./images/mobile/profilePicture.png"
+            alt="The bridge in close zoom"
+          />
+        </picture>
+        <table>
+          <thead>
+            <tr>
+              <td><h5>Profile</h5></td>
+              <td><p>UI / UX Engineer, Front-end Developer</p></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><h5>Front-end Dev</h5></td>
+              <td>
+                <div class="bar">
+                  <div class="status" style="width: 135px"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><h5>Tools</h5></td>
+              <td><p>HTML, CSS, JS, Bootstrap, React</p></td>
+            </tr>
+            <tr>
+              <td><h5>UI Design</h5></td>
+              <td>
+                <div class="bar">
+                  <div class="status" style="width: 165px"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><h5>Tools</h5></td>
+              <td><p>Adobe PS, AI, XD, Figma, InVision</p></td>
+            </tr>
+            <tr>
+              <td><h5>UX Research</h5></td>
+              <td>
+                <div class="bar">
+                  <div class="status" style="width: 180px"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><h5>Tools</h5></td>
+              <td><p>Paper, Pen, Balsamiq</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="portfolio">
+        <h1>Portfolio</h1>
+        <h3>UX Research</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum
+          nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+          ultricies lectus eget urna.
+        </p>
+        <div id="pictures">
+          <div>
+            <picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="./images/desktop/farBridge.png"
+              />
+              <img
+                class="UpperImg"
+                src="./images/mobile/farBridge.png"
+                alt="A bridge over the river with boats"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="./images/desktop/river.png"
+              />
+              <img
+                src="./images/mobile/river.png"
+                alt="A river separates the city"
+              />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source            
+                media="(min-width: 600px)"
+                srcset="./images/desktop/closeZoomBridge.png"
+              />
+              <img
+              class="UpperImg"
+                src="./images/mobile/closeZoomBridge.png"
+                alt="The bridge in close zoom"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="./images/desktop/houseWithWindows.png"
+              />
+              <img
+                src="./images/mobile/houseWithWindows.png"
+                alt="A house with many windows"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h1>Get in Touch</h1>
+      <nav>
+        <ul>
+          <li>Dribble</li>
+          <li>LinkedIn</li>
+          <li>Behance</li>
+          <li>Facebook</li>
+          <li>CodePen</li>
+          <li>Instagram</li>
+          <li>GitHub</li>
+          <li>Twitter</li>
+          <li>Medium</li>
+        </ul>
+      </nav>
+      <div>
+        <span>seyrig@mailme.com</span>
+        <span>+ 55 6645 665544</span>
+      </div>
+    </footer>
+  </body>
+</html>

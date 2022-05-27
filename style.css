@@ -1,0 +1,151 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #333333;
+}
+
+header {
+  background-image: url(./images/mobile/background.png);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 36px 78px 50px 73px;
+  /* height: 275px; */
+}
+
+a {
+  margin-top: 29px;
+  color: #ffffff;
+}
+
+header nav {
+  display: none;
+}
+
+header h1 {
+  margin: 0 0 16px 0;
+}
+
+h1 {
+  margin: 25px 0 0 -6px;
+}
+
+h2 {
+  margin-top: 34px;
+  margin-bottom: 13px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+hr {
+  width: 24px;
+  height: 2px;
+  border: 0;
+  background: #ffffff;
+  margin: 0 4px 4px 0;
+}
+
+#burger {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 33px;
+  top: 44px;
+}
+
+/*////////////////////////////////////////////////////////*/
+section:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+section:nth-child(even),
+footer {
+  background-color: #fffaf2;
+}
+
+section, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px 0 34px;
+  text-align: justify;
+}
+
+#about {
+  height: 292px;
+}
+
+p {
+  margin-top: 18px;
+}
+
+#secondP {
+  margin-top: 4px;
+}
+
+#profilePicture {
+  margin-top: 25px;
+  margin-right: 14px;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+#skills {
+  height: 617px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: -16px;
+}
+
+.bar {
+  width: 211px;
+  height: 18px;
+  background-color: #f5d6ab;
+}
+
+.status {
+  z-index: 2;
+  height: 18px;
+  background-color: #c66c49;
+}
+
+h5 {
+  margin: 0;
+  padding-left: 5px;
+}
+
+/* ////////////////////////////////////////// */
+
+#portfolio h3 {
+  margin: 24px 0 0 -18px;
+}
+
+#portfolio p {
+  text-align: center;
+}
+
+#pictures {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 19px;
+  display: flex;
+}
+
+.UpperImg {
+  margin-bottom: 9px;
+}
+
+#pictures div {
+  width: 100%;
+  margin-right: 14px;
+}
+
+/* ////////////////////////////////////////////// */
+
