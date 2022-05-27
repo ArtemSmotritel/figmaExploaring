@@ -19,9 +19,6 @@
   <body>
     <header>
       <div id="burger">
-        <!-- <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div> -->
         <hr />
         <hr />
         <hr />
@@ -51,7 +48,7 @@
           adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra
           egestas aliquet mollis.
         </p>
-        <p id="secondP">
+        <p id="second-paragraph">
           Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
           penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus
           consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
@@ -61,7 +58,7 @@
       </section>
       <section id="skills">
         <h1>Skills</h1>
-        <picture id="profilePicture">
+        <picture id="profile-picture">
           <source
             media="(min-width: 600px)"
             srcset="./images/desktop/profilePicture.png"
@@ -71,52 +68,49 @@
             alt="The bridge in close zoom"
           />
         </picture>
-        <table>
-          <thead>
-            <tr>
-              <td><h5>Profile</h5></td>
-              <td><p>UI / UX Engineer, Front-end Developer</p></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><h5>Front-end Dev</h5></td>
-              <td>
-                <div class="bar">
-                  <div class="status" style="width: 135px"></div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td><h5>Tools</h5></td>
-              <td><p>HTML, CSS, JS, Bootstrap, React</p></td>
-            </tr>
-            <tr>
-              <td><h5>UI Design</h5></td>
-              <td>
-                <div class="bar">
-                  <div class="status" style="width: 165px"></div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td><h5>Tools</h5></td>
-              <td><p>Adobe PS, AI, XD, Figma, InVision</p></td>
-            </tr>
-            <tr>
-              <td><h5>UX Research</h5></td>
-              <td>
-                <div class="bar">
-                  <div class="status" style="width: 180px"></div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td><h5>Tools</h5></td>
-              <td><p>Paper, Pen, Balsamiq</p></td>
-            </tr>
-          </tbody>
-        </table>
+
+        <div class="profile-description">
+          <h6>Profile</h6>
+          <span>UI / UX Engineer, Front-end Developer</span>
+        </div>
+        <div class="skills-table">          
+          <div class="skill">
+            <div class="line">
+              <h6>Front-end Dev</h6>
+              <div class="bar">
+                <div class="status" style="width: 135px"></div>
+              </div>
+            </div>
+            <div class="line">
+              <h6>Tools</h6>
+              <span>HTML, CSS, JS, Bootstrap, React</span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="line">
+              <h6>UI Design</h6>
+              <div class="bar">
+                <div class="status" style="width: 165px"></div>
+              </div>
+            </div>
+            <div class="line">
+              <h6>Tools</h6>
+              <span>Adobe PS, AI, XD, Figma, InVision</span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="line">
+              <h6>UX Research</h6>
+              <div class="bar">
+                <div class="status" style="width: 180px"></div>
+              </div>
+            </div>
+            <div class="line">
+              <h6>Tools</h6>
+              <span>Paper, Pen, Balsamiq</span>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="portfolio">
         <h1>Portfolio</h1>
@@ -134,7 +128,7 @@
                 srcset="./images/desktop/farBridge.png"
               />
               <img
-                class="UpperImg"
+                class="upper-img"
                 src="./images/mobile/farBridge.png"
                 alt="A bridge over the river with boats"
               />
@@ -157,7 +151,7 @@
                 srcset="./images/desktop/closeZoomBridge.png"
               />
               <img
-                class="UpperImg"
+                class="upper-img"
                 src="./images/mobile/closeZoomBridge.png"
                 alt="The bridge in close zoom"
               />
