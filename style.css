@@ -124,10 +124,11 @@ h5 {
 /* ////////////////////////////////////////// */
 
 #portfolio h3 {
-  margin: 24px 0 0 -18px;
+  margin: 19px 0 0 -14px;
 }
 
 #portfolio p {
+  margin-top: 14px;
   text-align: center;
 }
 
@@ -136,16 +137,48 @@ h5 {
   margin-top: 15px;
   margin-bottom: 19px;
   display: flex;
+  gap: 11px;
 }
 
 .UpperImg {
   margin-bottom: 9px;
 }
 
-#pictures div {
-  width: 100%;
-  margin-right: 14px;
-}
-
 /* ////////////////////////////////////////////// */
 
+footer {
+  padding-left: 41px;
+}
+
+footer nav {
+  margin-top: 14px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+  gap: 16px;
+}
+
+footer ul {
+  padding: 0;  
+  list-style-type: none;
+  width: 50%;
+}
+
+footer li {
+  width: 50%;
+}
+
+footer li:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+footer span {  
+  display: block;
+}
+
+#contacts {
+  display: flex;  
+  flex-direction: column;
+  align-self: flex-start;
+  row-gap: 7px;
+}
