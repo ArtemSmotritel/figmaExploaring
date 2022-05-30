@@ -7,6 +7,7 @@
     <title>Resume example</title>
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href=".css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,73 +42,78 @@
     <main>
       <section id="about">
         <h1>About</h1>
-        <p>
-          Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus
-          tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue.
-          Pellentesque senectus risus consectetur et sed purus sed. Consectetur
-          adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra
-          egestas aliquet mollis.
-        </p>
-        <p id="second-paragraph">
-          Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
-          penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus
-          consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
-          porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
-          diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
-        </p>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus
+            tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue.
+            Pellentesque senectus risus consectetur et sed purus sed. Consectetur
+            adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra
+            egestas aliquet mollis.
+          </p>
+          <p id="second-paragraph">
+            Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+            penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus
+            consectetur et sed purus sed. Consectetur adipiscing elit. Egestas
+            porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+            diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+          </p>
+        </div>
       </section>
       <section id="skills">
-        <h1>Skills</h1>
-        <picture id="profile-picture">
-          <source
-            media="(min-width: 600px)"
-            srcset="./images/desktop/profilePicture.png"
-          />
-          <img
-            src="./images/mobile/profilePicture.png"
-            alt="The bridge in close zoom"
-          />
-        </picture>
-
-        <div class="profile-description">
-          <h6>Profile</h6>
-          <span>UI / UX Engineer, Front-end Developer</span>
-        </div>
-        <div class="skills-table">          
-          <div class="skill">
-            <div class="line">
-              <h6>Front-end Dev</h6>
-              <div class="bar">
-                <div class="status" style="width: 135px"></div>
+        <h1>Skills</h1>        
+        <div class="content">
+          <picture id="profile-picture">
+            <source
+              media="(min-width: 600px)"
+              srcset="./images/desktop/profilePicture.png"
+            />
+            <img
+              src="./images/mobile/profilePicture.png"
+              alt="The bridge in close zoom"
+            />
+          </picture>
+          <div>
+            <div class="profile-description">
+              <h6>Profile</h6>
+              <span>UI / UX Engineer, Front-end Developer</span>
+            </div>
+            <div class="skills-table">
+              <div class="skill">
+                <div class="line">
+                  <h6>Front-end Dev</h6>
+                  <div class="bar">
+                    <div class="status" style="width: 66%"></div>
+                  </div>
+                </div>
+                <div class="line">
+                  <h6>Tools</h6>
+                  <span>HTML, CSS, JS, Bootstrap, React</span>
+                </div>
               </div>
-            </div>
-            <div class="line">
-              <h6>Tools</h6>
-              <span>HTML, CSS, JS, Bootstrap, React</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="line">
-              <h6>UI Design</h6>
-              <div class="bar">
-                <div class="status" style="width: 165px"></div>
+              <div class="skill">
+                <div class="line">
+                  <h6>UI Design</h6>
+                  <div class="bar">
+                    <div class="status" style="width: 77%"></div>
+                  </div>
+                </div>
+                <div class="line">
+                  <h6>Tools</h6>
+                  <span>Adobe PS, AI, XD, Figma, InVision</span>
+                </div>
               </div>
-            </div>
-            <div class="line">
-              <h6>Tools</h6>
-              <span>Adobe PS, AI, XD, Figma, InVision</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="line">
-              <h6>UX Research</h6>
-              <div class="bar">
-                <div class="status" style="width: 180px"></div>
-              </div>
-            </div>
-            <div class="line">
-              <h6>Tools</h6>
-              <span>Paper, Pen, Balsamiq</span>
+              <div class="skill">
+                <div class="line">
+                  <h6>UX Research</h6>
+                  <div class="bar">
+                    <div class="status" style="width: 86%"></div>
+                  </div>
+                </div>
+                <div class="line">
+                  <h6>Tools</h6>
+                  <span>Paper, Pen, Balsamiq</span>
+                </div>
+              </div>              
             </div>
           </div>
         </div>
@@ -115,57 +121,59 @@
       <section id="portfolio">
         <h1>Portfolio</h1>
         <h3>UX Research</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum
-          nibh nam odio cursus id. Diam massa semper a tincidunt cursus
-          ultricies lectus eget urna.
-        </p>
-        <div id="pictures">
-          <div>
-            <picture>
-              <source
-                media="(min-width: 600px)"
-                srcset="./images/desktop/farBridge.png"
-              />
-              <img
-                class="upper-img"
-                src="./images/mobile/farBridge.png"
-                alt="A bridge over the river with boats"
-              />
-            </picture>
-            <picture>
-              <source
-                media="(min-width: 600px)"
-                srcset="./images/desktop/river.png"
-              />
-              <img
-                src="./images/mobile/river.png"
-                alt="A river separates the city"
-              />
-            </picture>
-          </div>
-          <div>
-            <picture>
-              <source
-                media="(min-width: 600px)"
-                srcset="./images/desktop/closeZoomBridge.png"
-              />
-              <img
-                class="upper-img"
-                src="./images/mobile/closeZoomBridge.png"
-                alt="The bridge in close zoom"
-              />
-            </picture>
-            <picture>
-              <source
-                media="(min-width: 600px)"
-                srcset="./images/desktop/houseWithWindows.png"
-              />
-              <img
-                src="./images/mobile/houseWithWindows.png"
-                alt="A house with many windows"
-              />
-            </picture>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum
+            nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+            ultricies lectus eget urna.
+          </p>
+          <div id="pictures">
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 440px)"
+                  srcset="./images/desktop/farBridge.png"
+                />
+                <img
+                  class="upper-img"
+                  src="./images/mobile/farBridge.png"
+                  alt="A bridge over the river with boats"
+                />
+              </picture>
+              <picture>
+                <source
+                  media="(min-width: 440px)"
+                  srcset="./images/desktop/river.png"
+                />
+                <img
+                  src="./images/mobile/river.png"
+                  alt="A river separates the city"
+                />
+              </picture>
+            </div>
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 440px)"
+                  srcset="./images/desktop/closeZoomBridge.png"
+                />
+                <img
+                  class="upper-img"
+                  src="./images/mobile/closeZoomBridge.png"
+                  alt="The bridge in close zoom"
+                />
+              </picture>
+              <picture>
+                <source
+                  media="(min-width: 440px)"
+                  srcset="./images/desktop/houseWithWindows.png"
+                />
+                <img
+                  src="./images/mobile/houseWithWindows.png"
+                  alt="A house with many windows"
+                />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
@@ -173,27 +181,29 @@
 
     <footer>
       <h1>Get in Touch</h1>
-      <nav>
-        <ul>
-          <li>Dribbble</li>
-          <li>Behance</li>
-          <li>CodePen</li>
-          <li>GitHub</li>
-          <li>Medium</li>
-        </ul>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-        </ul>
-      </nav>
-      <div id="contacts">
-        <!-- <ul>
-          <li></li>
-        </ul> -->
-        <span>seyrig@mailme.com</span>
-        <span>+ 55 6645 665544</span>
+      <div class="content">
+        <nav>
+          <ul>
+            <li>Dribbble</li>
+            <li>Behance</li>
+            <li>CodePen</li>
+            <li>GitHub</li>
+            <li>Medium</li>
+          </ul>
+          <ul>
+            <li>LinkedIn</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </nav>
+        <div class="line">
+          <div id="contacts">
+            <span>seyrig@mailme.com</span>
+            <span>+ 55 6645 665544</span>
+          </div>
+          <img src="./images/mobile/ChevronUp(E70E).png" alt="go-to-top button" />
+        </div>
       </div>
     </footer>
   </body>
