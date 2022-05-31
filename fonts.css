@@ -129,7 +129,8 @@ header li {
   }
 
   footer li,
-  footer span {
+  footer span,
+  footer span:last-child {
     font-size: 18px;
     line-height: 22px;
   }

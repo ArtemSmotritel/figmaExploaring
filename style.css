@@ -375,6 +375,17 @@ footer span {
     margin: 35px 0 20px 0;
   }
 
+  #portfolio {
+    position: relative;
+  }
+
+  #arrows {    
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    gap: 15px;    
+  }
+
   /* /////////////////////// */
 
   footer {
@@ -477,6 +488,10 @@ footer span {
   #portfolio .content {
     gap: 125px;
   }
+
+  #arrows {
+    bottom: 130px;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -492,6 +507,10 @@ footer span {
 
   section, footer {
     padding: 0 100px 0 150px;
+  }
+
+  #arrows {
+    bottom: 25px;
   }
 }
 
@@ -519,6 +538,10 @@ footer span {
 
   section, footer {
     padding: 0 165px 100px 165px;
+  }
+
+  #arrows {
+    bottom: 130px;
   }
 
   footer {
@@ -564,6 +587,10 @@ footer span {
     margin-bottom: 20px;
   }
 
+  #arrows {
+    bottom: 25px;
+  }
+
   footer nav, footer .content {
     gap: 460px;
   }
@@ -576,34 +603,8 @@ footer span {
 }
 
 @media (min-width: 1900px) {
-  section, footer {
-    padding-left: 400px;
-    padding-right: 400px;    
-  }
-
-  header {
-    padding: 150px 400px 330px 400px;
-  }
-
-  header nav {
-    top: 170px;
-    right: 400px;
-  }
-
   header ul {
     gap: 90px;
-  }
-
-  header a {
-    margin-top: 190px;
-  }
-
-  h2 {
-    margin: 300px 0 50px 0;
-  }
-
-  h1 {
-    margin-top: 150px;
   }
 
   section {
@@ -611,7 +612,7 @@ footer span {
   }
 
   footer nav, footer .content {
-    gap: 700px;
+    gap: 15vw;
   }
 
   #skills .content {
@@ -632,5 +633,55 @@ footer span {
 
   .skill {
     gap: 30px;
+  }
+
+  #arrows {
+    gap: 20px;
+    bottom: 170px;
+  }
+}
+
+@media (min-width: 2100px) {
+  section, footer {
+    padding-left: 400px;
+    padding-right: 400px;    
+  }
+
+  header {
+    padding: 150px 400px 330px 400px;
+  }
+
+  header a {
+    margin-top: 190px;
+  }
+
+  h2 {
+    margin: 300px 0 50px 0;
+  }
+
+  h1 {
+    margin-top: 150px;
+  }
+
+  header nav {
+    top: 170px;
+    right: 17vw;
+  }
+
+  .bar, #skills span {
+    width: 500px;
+  }
+}
+
+
+@media (min-width: 2600px) {
+  .bar, #skills span {
+    width: 700px;
+  }
+}
+
+@media (min-width: 2600px) {
+  .bar, #skills span {
+    width: 900px;
   }
 }
