@@ -62,8 +62,6 @@ hr {
   top: 44px;
 }
 
-/*////////////////////////////////////////////////////////*/
-
 section:nth-child(odd) {
   background-color: #ffffff;
 }
@@ -84,6 +82,8 @@ footer {
   width: 100%;
 }
 
+/* About */
+
 #about {
   margin-bottom: 12px;
 }
@@ -101,7 +101,7 @@ p {
   margin-right: 14px;
 }
 
-/* ///////////////////////////////////////////////////////////// */
+/* Skills table */
 
 #skills {
   margin-bottom: 25px;
@@ -163,7 +163,7 @@ p {
   background-color: #c66c49;
 }
 
-/* ////////////////////////////////////////// */
+/* Portfolio */
 
 #portfolio h3 {
   margin: 19px 0 0 -14px;
@@ -190,7 +190,11 @@ p {
   margin-bottom: 9px;
 }
 
-/* ////////////////////////////////////////////// */
+#arrows {
+  display: none;
+}
+
+/* Footer */
 
 footer {
   padding-left: 41px;
@@ -325,7 +329,7 @@ footer span {
     padding: 0 40px 0 75px;
   }
 
-  /* ///////////////////////// */
+  /* Skills-table */
 
   #skills .content {
     gap: 30px;
@@ -359,7 +363,7 @@ footer span {
     width: 290px;
   }
 
-  /* //////////////////////// */
+  /* Portfolio */
 
   #portfolio p {
     width: 50%;
@@ -380,13 +384,14 @@ footer span {
   }
 
   #arrows {    
+    display: block;
     position: absolute;
     bottom: 25px;
     display: flex;
     gap: 15px;    
   }
 
-  /* /////////////////////// */
+  /* Footer */
 
   footer {
     margin-bottom: 40px;
