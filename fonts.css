@@ -96,6 +96,12 @@ header li {
     line-height: 29px;
   }
 
+  #portfolio h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
   h6 {
     font-weight: 600;
     font-size: 18px;
@@ -126,5 +132,62 @@ header li {
   footer span {
     font-size: 18px;
     line-height: 22px;
+  }
+}
+
+@media (min-width: 1900px) {
+  h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 59px;
+  }
+
+  h2 {
+    font-size: 74px;
+    line-height: 88px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #portfolio h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  header li {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  span {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  footer li,
+  footer span {
+    font-size: 28px;
+    line-height: 35px;
   }
 }
